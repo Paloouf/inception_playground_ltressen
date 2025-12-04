@@ -15,7 +15,3 @@ spec:
       containers:
         - image: wil42/playground:v2
           name: appli
-      ports:
-        - containerPort: 8888
-          name: http
-          protocol: TCP
